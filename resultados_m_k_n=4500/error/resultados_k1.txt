@@ -1,0 +1,70 @@
+Test for m = 100000 and k = 1
+Execution Time: 55.12561511993408
+Positive: 1522
+False Positive: 1805
+Negative: 1173
+Error %: 40.11111111111111%
+--------------------------------------------------------------%
+Test for m = 200000 and k = 1
+Execution Time: 38.55620741844177
+Positive: 1522
+False Positive: 1068
+Negative: 1910
+Error %: 23.733333333333334%
+--------------------------------------------------------------%
+Test for m = 300000 and k = 1
+Execution Time: 33.00335931777954
+Positive: 1522
+False Positive: 780
+Negative: 2198
+Error %: 17.333333333333336%
+--------------------------------------------------------------%
+Test for m = 400000 and k = 1
+Execution Time: 29.412939071655273
+Positive: 1522
+False Positive: 616
+Negative: 2362
+Error %: 13.68888888888889%
+--------------------------------------------------------------%
+Test for m = 500000 and k = 1
+Execution Time: 28.366004943847656
+Positive: 1522
+False Positive: 535
+Negative: 2443
+Error %: 11.88888888888889%
+--------------------------------------------------------------%
+Test for m = 600000 and k = 1
+Execution Time: 25.327690601348877
+Positive: 1522
+False Positive: 403
+Negative: 2575
+Error %: 8.955555555555556%
+--------------------------------------------------------------%
+Test for m = 700000 and k = 1
+Execution Time: 24.54240345954895
+Positive: 1522
+False Positive: 414
+Negative: 2564
+Error %: 9.2%
+--------------------------------------------------------------%
+Test for m = 800000 and k = 1
+Execution Time: 23.167999982833862
+Positive: 1522
+False Positive: 347
+Negative: 2631
+Error %: 7.711111111111111%
+--------------------------------------------------------------%
+Test for m = 900000 and k = 1
+Execution Time: 21.591035842895508
+Positive: 1522
+False Positive: 277
+Negative: 2701
+Error %: 6.155555555555556%
+--------------------------------------------------------------%
+Test for m = 1000000 and k = 1
+Execution Time: 21.717850923538208
+Positive: 1522
+False Positive: 266
+Negative: 2712
+Error %: 5.911111111111111%
+--------------------------------------------------------------%

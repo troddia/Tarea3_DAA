@@ -1,0 +1,70 @@
+Test for m = 100000 and k = 8
+Execution Time: 98.81698369979858
+Positive: 3019
+False Positive: 2966
+Negative: 15
+Error %: 49.43333333333334%
+--------------------------------------------------------------%
+Test for m = 200000 and k = 8
+Execution Time: 89.21700835227966
+Positive: 3019
+False Positive: 2453
+Negative: 528
+Error %: 40.88333333333333%
+--------------------------------------------------------------%
+Test for m = 300000 and k = 8
+Execution Time: 66.95888710021973
+Positive: 3019
+False Positive: 1494
+Negative: 1487
+Error %: 24.9%
+--------------------------------------------------------------%
+Test for m = 400000 and k = 8
+Execution Time: 51.509626150131226
+Positive: 3019
+False Positive: 803
+Negative: 2178
+Error %: 13.383333333333333%
+--------------------------------------------------------------%
+Test for m = 500000 and k = 8
+Execution Time: 42.85789465904236
+Positive: 3019
+False Positive: 417
+Negative: 2564
+Error %: 6.950000000000001%
+--------------------------------------------------------------%
+Test for m = 600000 and k = 8
+Execution Time: 38.702510833740234
+Positive: 3019
+False Positive: 206
+Negative: 2775
+Error %: 3.4333333333333336%
+--------------------------------------------------------------%
+Test for m = 700000 and k = 8
+Execution Time: 36.41586422920227
+Positive: 3019
+False Positive: 118
+Negative: 2863
+Error %: 1.9666666666666666%
+--------------------------------------------------------------%
+Test for m = 800000 and k = 8
+Execution Time: 34.655009269714355
+Positive: 3019
+False Positive: 61
+Negative: 2920
+Error %: 1.0166666666666666%
+--------------------------------------------------------------%
+Test for m = 900000 and k = 8
+Execution Time: 34.81354570388794
+Positive: 3019
+False Positive: 43
+Negative: 2938
+Error %: 0.7166666666666667%
+--------------------------------------------------------------%
+Test for m = 1000000 and k = 8
+Execution Time: 33.746649503707886
+Positive: 3019
+False Positive: 16
+Negative: 2965
+Error %: 0.26666666666666666%
+--------------------------------------------------------------%

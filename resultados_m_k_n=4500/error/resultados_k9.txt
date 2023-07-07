@@ -1,0 +1,70 @@
+Test for m = 100000 and k = 9
+Execution Time: 76.65123343467712
+Positive: 1522
+False Positive: 2971
+Negative: 7
+Error %: 66.02222222222223%
+--------------------------------------------------------------%
+Test for m = 200000 and k = 9
+Execution Time: 69.08002948760986
+Positive: 1522
+False Positive: 2603
+Negative: 375
+Error %: 57.84444444444444%
+--------------------------------------------------------------%
+Test for m = 300000 and k = 9
+Execution Time: 50.133381366729736
+Positive: 1522
+False Positive: 1708
+Negative: 1270
+Error %: 37.955555555555556%
+--------------------------------------------------------------%
+Test for m = 400000 and k = 9
+Execution Time: 35.356420278549194
+Positive: 1522
+False Positive: 893
+Negative: 2085
+Error %: 19.844444444444445%
+--------------------------------------------------------------%
+Test for m = 500000 and k = 9
+Execution Time: 26.40537166595459
+Positive: 1522
+False Positive: 508
+Negative: 2470
+Error %: 11.288888888888888%
+--------------------------------------------------------------%
+Test for m = 600000 and k = 9
+Execution Time: 20.818819522857666
+Positive: 1522
+False Positive: 222
+Negative: 2756
+Error %: 4.933333333333334%
+--------------------------------------------------------------%
+Test for m = 700000 and k = 9
+Execution Time: 17.691242456436157
+Positive: 1522
+False Positive: 106
+Negative: 2872
+Error %: 2.3555555555555556%
+--------------------------------------------------------------%
+Test for m = 800000 and k = 9
+Execution Time: 17.51884961128235
+Positive: 1522
+False Positive: 65
+Negative: 2913
+Error %: 1.4444444444444444%
+--------------------------------------------------------------%
+Test for m = 900000 and k = 9
+Execution Time: 16.22429394721985
+Positive: 1522
+False Positive: 38
+Negative: 2940
+Error %: 0.8444444444444443%
+--------------------------------------------------------------%
+Test for m = 1000000 and k = 9
+Execution Time: 16.375673055648804
+Positive: 1522
+False Positive: 16
+Negative: 2962
+Error %: 0.35555555555555557%
+--------------------------------------------------------------%

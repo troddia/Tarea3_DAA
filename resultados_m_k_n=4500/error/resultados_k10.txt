@@ -1,0 +1,35 @@
+Test for m = 100000 and k = 10
+Execution Time: 79.87548041343689
+Positive: 1522
+False Positive: 2977
+Negative: 1
+Error %: 66.15555555555555%
+--------------------------------------------------------------%
+Test for m = 200000 and k = 10
+Execution Time: 75.02769231796265
+Positive: 1522
+False Positive: 2707
+Negative: 271
+Error %: 60.15555555555555%
+--------------------------------------------------------------%
+Test for m = 300000 and k = 10
+Execution Time: 56.93742775917053
+Positive: 1522
+False Positive: 1925
+Negative: 1053
+Error %: 42.77777777777778%
+--------------------------------------------------------------%
+Test for m = 400000 and k = 10
+Execution Time: 39.0703330039978
+Positive: 1522
+False Positive: 1066
+Negative: 1912
+Error %: 23.68888888888889%
+--------------------------------------------------------------%
+Test for m = 500000 and k = 10
+Execution Time: 28.095073461532593
+Positive: 1522
+False Positive: 562
+Negative: 2416
+Error %: 12.488888888888889%
+--------------------------------------------------------------%

@@ -1,0 +1,70 @@
+Test for m = 100000 and k = 10
+Execution Time: 91.7623028755188
+Positive: 3019
+False Positive: 2976
+Negative: 5
+Error %: 49.6%
+--------------------------------------------------------------%
+Test for m = 200000 and k = 10
+Execution Time: 84.73395228385925
+Positive: 3019
+False Positive: 2694
+Negative: 287
+Error %: 44.9%
+--------------------------------------------------------------%
+Test for m = 300000 and k = 10
+Execution Time: 72.80730891227722
+Positive: 3019
+False Positive: 1909
+Negative: 1072
+Error %: 31.816666666666666%
+--------------------------------------------------------------%
+Test for m = 400000 and k = 10
+Execution Time: 52.15373086929321
+Positive: 3019
+False Positive: 1066
+Negative: 1915
+Error %: 17.766666666666666%
+--------------------------------------------------------------%
+Test for m = 500000 and k = 10
+Execution Time: 43.96901774406433
+Positive: 3019
+False Positive: 595
+Negative: 2386
+Error %: 9.916666666666666%
+--------------------------------------------------------------%
+Test for m = 600000 and k = 10
+Execution Time: 35.99335479736328
+Positive: 3019
+False Positive: 283
+Negative: 2698
+Error %: 4.716666666666667%
+--------------------------------------------------------------%
+Test for m = 700000 and k = 10
+Execution Time: 33.17399835586548
+Positive: 3019
+False Positive: 145
+Negative: 2836
+Error %: 2.4166666666666665%
+--------------------------------------------------------------%
+Test for m = 800000 and k = 10
+Execution Time: 31.91824746131897
+Positive: 3019
+False Positive: 67
+Negative: 2914
+Error %: 1.1166666666666667%
+--------------------------------------------------------------%
+Test for m = 900000 and k = 10
+Execution Time: 31.000229120254517
+Positive: 3019
+False Positive: 43
+Negative: 2938
+Error %: 0.7166666666666667%
+--------------------------------------------------------------%
+Test for m = 1000000 and k = 10
+Execution Time: 31.41335964202881
+Positive: 3019
+False Positive: 18
+Negative: 2963
+Error %: 0.3%
+--------------------------------------------------------------%

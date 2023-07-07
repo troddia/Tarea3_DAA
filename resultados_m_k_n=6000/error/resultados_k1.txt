@@ -1,0 +1,168 @@
+Test for m = 100000 and k = 1
+Execution Time: 56.20882987976074
+Positive: 1519
+False Positive: 1810
+Negative: 1171
+Error %: 40.22222222222222%
+--------------------------------------------------------------%
+Test for m = 200000 and k = 1
+Execution Time: 41.86004948616028
+Positive: 1519
+False Positive: 1151
+Negative: 1830
+Error %: 25.577777777777776%
+--------------------------------------------------------------%
+Test for m = 300000 and k = 1
+Execution Time: 34.74605345726013
+Positive: 1519
+False Positive: 787
+Negative: 2194
+Error %: 17.48888888888889%
+--------------------------------------------------------------%
+Test for m = 400000 and k = 1
+Execution Time: 32.14961910247803
+Positive: 1519
+False Positive: 636
+Negative: 2345
+Error %: 14.133333333333335%
+--------------------------------------------------------------%
+Test for m = 500000 and k = 1
+Execution Time: 29.035692930221558
+Positive: 1519
+False Positive: 511
+Negative: 2470
+Error %: 11.355555555555556%
+--------------------------------------------------------------%
+Test for m = 600000 and k = 1
+Execution Time: 27.367101907730103
+Positive: 1519
+False Positive: 450
+Negative: 2531
+Error %: 10.0%
+--------------------------------------------------------------%
+Test for m = 700000 and k = 1
+Execution Time: 25.081324577331543
+Positive: 1519
+False Positive: 362
+Negative: 2619
+Error %: 8.044444444444444%
+--------------------------------------------------------------%
+Test for m = 800000 and k = 1
+Execution Time: 24.139732599258423
+Positive: 1519
+False Positive: 322
+Negative: 2659
+Error %: 7.155555555555555%
+--------------------------------------------------------------%
+Test for m = 900000 and k = 1
+Execution Time: 23.1701922416687
+Positive: 1519
+False Positive: 293
+Negative: 2688
+Error %: 6.51111111111111%
+--------------------------------------------------------------%
+Test for m = 1000000 and k = 1
+Execution Time: 23.0550217628479
+Positive: 1519
+False Positive: 291
+Negative: 2690
+Error %: 6.466666666666667%
+--------------------------------------------------------------%
+Test for m = 100000 and k = 1
+Execution Time: 55.03928065299988
+Positive: 1521
+False Positive: 1806
+Negative: 1173
+Error %: 40.13333333333333%
+--------------------------------------------------------------%
+Test for m = 200000 and k = 1
+Execution Time: 39.58278846740723
+Positive: 1521
+False Positive: 1104
+Negative: 1875
+Error %: 24.53333333333333%
+--------------------------------------------------------------%
+Test for m = 300000 and k = 1
+Execution Time: 33.82746362686157
+Positive: 1521
+False Positive: 807
+Negative: 2172
+Error %: 17.933333333333334%
+--------------------------------------------------------------%
+Test for m = 100000 and k = 1
+Execution Time: 69.88221549987793
+Positive: 3022
+False Positive: 1820
+Negative: 1158
+Error %: 30.333333333333336%
+--------------------------------------------------------------%
+Test for m = 100000 and k = 1
+Execution Time: 68.32998919487
+Positive: 3019
+False Positive: 1824
+Negative: 1157
+Error %: 30.4%
+--------------------------------------------------------------%
+Test for m = 200000 and k = 1
+Execution Time: 54.80112648010254
+Positive: 3019
+False Positive: 1116
+Negative: 1865
+Error %: 18.6%
+--------------------------------------------------------------%
+Test for m = 300000 and k = 1
+Execution Time: 48.49881982803345
+Positive: 3019
+False Positive: 767
+Negative: 2214
+Error %: 12.783333333333333%
+--------------------------------------------------------------%
+Test for m = 400000 and k = 1
+Execution Time: 44.82144069671631
+Positive: 3019
+False Positive: 634
+Negative: 2347
+Error %: 10.566666666666666%
+--------------------------------------------------------------%
+Test for m = 500000 and k = 1
+Execution Time: 44.6802704334259
+Positive: 3019
+False Positive: 494
+Negative: 2487
+Error %: 8.233333333333333%
+--------------------------------------------------------------%
+Test for m = 600000 and k = 1
+Execution Time: 40.26598119735718
+Positive: 3019
+False Positive: 404
+Negative: 2577
+Error %: 6.7333333333333325%
+--------------------------------------------------------------%
+Test for m = 700000 and k = 1
+Execution Time: 41.714409828186035
+Positive: 3019
+False Positive: 403
+Negative: 2578
+Error %: 6.716666666666667%
+--------------------------------------------------------------%
+Test for m = 800000 and k = 1
+Execution Time: 38.992292642593384
+Positive: 3019
+False Positive: 340
+Negative: 2641
+Error %: 5.666666666666666%
+--------------------------------------------------------------%
+Test for m = 900000 and k = 1
+Execution Time: 38.1679482460022
+Positive: 3019
+False Positive: 303
+Negative: 2678
+Error %: 5.050000000000001%
+--------------------------------------------------------------%
+Test for m = 1000000 and k = 1
+Execution Time: 38.39275860786438
+Positive: 3019
+False Positive: 272
+Negative: 2709
+Error %: 4.533333333333333%
+--------------------------------------------------------------%

@@ -1,0 +1,70 @@
+Test for m = 100000 and k = 6
+Execution Time: 78.44977259635925
+Positive: 1520
+False Positive: 2909
+Negative: 71
+Error %: 64.64444444444445%
+--------------------------------------------------------------%
+Test for m = 200000 and k = 6
+Execution Time: 60.6756010055542
+Positive: 1520
+False Positive: 2040
+Negative: 940
+Error %: 45.33333333333333%
+--------------------------------------------------------------%
+Test for m = 300000 and k = 6
+Execution Time: 41.14124822616577
+Positive: 1520
+False Positive: 1100
+Negative: 1880
+Error %: 24.444444444444443%
+--------------------------------------------------------------%
+Test for m = 400000 and k = 6
+Execution Time: 27.951143264770508
+Positive: 1520
+False Positive: 552
+Negative: 2428
+Error %: 12.266666666666666%
+--------------------------------------------------------------%
+Test for m = 500000 and k = 6
+Execution Time: 22.421390771865845
+Positive: 1520
+False Positive: 267
+Negative: 2713
+Error %: 5.933333333333334%
+--------------------------------------------------------------%
+Test for m = 600000 and k = 6
+Execution Time: 21.376339197158813
+Positive: 1520
+False Positive: 150
+Negative: 2830
+Error %: 3.3333333333333335%
+--------------------------------------------------------------%
+Test for m = 700000 and k = 6
+Execution Time: 21.02231478691101
+Positive: 1520
+False Positive: 92
+Negative: 2888
+Error %: 2.0444444444444447%
+--------------------------------------------------------------%
+Test for m = 800000 and k = 6
+Execution Time: 17.175281763076782
+Positive: 1520
+False Positive: 40
+Negative: 2940
+Error %: 0.8888888888888888%
+--------------------------------------------------------------%
+Test for m = 900000 and k = 6
+Execution Time: 17.266589879989624
+Positive: 1520
+False Positive: 21
+Negative: 2959
+Error %: 0.46666666666666673%
+--------------------------------------------------------------%
+Test for m = 1000000 and k = 6
+Execution Time: 17.213714838027954
+Positive: 1520
+False Positive: 20
+Negative: 2960
+Error %: 0.4444444444444444%
+--------------------------------------------------------------%

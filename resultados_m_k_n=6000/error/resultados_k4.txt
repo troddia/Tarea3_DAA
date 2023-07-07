@@ -1,0 +1,70 @@
+Test for m = 100000 and k = 4
+Execution Time: 93.294602394104
+Positive: 3019
+False Positive: 2729
+Negative: 252
+Error %: 45.483333333333334%
+--------------------------------------------------------------%
+Test for m = 200000 and k = 4
+Execution Time: 66.8096034526825
+Positive: 3019
+False Positive: 1525
+Negative: 1456
+Error %: 25.416666666666664%
+--------------------------------------------------------------%
+Test for m = 300000 and k = 4
+Execution Time: 50.881396770477295
+Positive: 3019
+False Positive: 770
+Negative: 2211
+Error %: 12.833333333333332%
+--------------------------------------------------------------%
+Test for m = 400000 and k = 4
+Execution Time: 41.71216130256653
+Positive: 3019
+False Positive: 397
+Negative: 2584
+Error %: 6.616666666666666%
+--------------------------------------------------------------%
+Test for m = 500000 and k = 4
+Execution Time: 38.32515788078308
+Positive: 3019
+False Positive: 217
+Negative: 2764
+Error %: 3.6166666666666667%
+--------------------------------------------------------------%
+Test for m = 600000 and k = 4
+Execution Time: 36.38375282287598
+Positive: 3019
+False Positive: 130
+Negative: 2851
+Error %: 2.166666666666667%
+--------------------------------------------------------------%
+Test for m = 700000 and k = 4
+Execution Time: 35.46089243888855
+Positive: 3019
+False Positive: 85
+Negative: 2896
+Error %: 1.4166666666666665%
+--------------------------------------------------------------%
+Test for m = 800000 and k = 4
+Execution Time: 34.659138917922974
+Positive: 3019
+False Positive: 54
+Negative: 2927
+Error %: 0.8999999999999999%
+--------------------------------------------------------------%
+Test for m = 900000 and k = 4
+Execution Time: 34.234086990356445
+Positive: 3019
+False Positive: 45
+Negative: 2936
+Error %: 0.75%
+--------------------------------------------------------------%
+Test for m = 1000000 and k = 4
+Execution Time: 33.866400957107544
+Positive: 3019
+False Positive: 26
+Negative: 2955
+Error %: 0.4333333333333333%
+--------------------------------------------------------------%
