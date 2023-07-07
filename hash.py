@@ -74,7 +74,7 @@ def test(m, k, names):
     negative = 0
     
     start_time = time.time()
-    for i in range(6000):
+    for i in range(25000):
         name = names[i]
         if hash_family.pass_filter(name):
             #loop through the csv list
@@ -95,8 +95,8 @@ def test(m, k, names):
              
     end_time = time.time()
     execution_time = end_time - start_time 
-    false_positive_rate = (false_positive / 6000) * 100
-    with open('resultados.txt', 'a') as file:
+    false_positive_rate = (false_positive / 25000) * 100
+    with open('resultados_k'+str(k)+'.txt', 'a') as file:
         file.write("Test for m = " + str(m) + " and k = " + str(k) + "\n")
         file.write("Execution Time: " + str(execution_time) + "\n")
         file.write("Positive: " + str(positive) + "\n")
@@ -118,7 +118,7 @@ if __name__ == '__main__':
 
     N = 3000
 
-    indices_aleatorios = random.sample(range(total_nombres), N)
+    indices_aleatorios = random.sample(range(total_nombres), 22000)
     indices_aleatorios_2 = random.sample(range(total_nombres_2), N)
 
     nombres_aleatorios = data.iloc[indices_aleatorios][0].tolist()
@@ -131,27 +131,19 @@ if __name__ == '__main__':
     m_values = range(100000, 1000001, 100000)
 
     # List to store the execution times for each m value
-    execution_times = []
-    error_percentages = []
+    for k in range(1,2):
+        execution_times = []
+        error_percentages = []
+        for m in m_values:
+            t, error = test(m, k, nombres_combinados)
+            execution_times.append(t)
+            error_percentages.append(error)
 
-    for m in m_values:
-        t, error = test(m, 3, nombres_combinados)
-        execution_times.append(t)
-        error_percentages.append(error)
 
-
-    # Plot the execution time vs. m
-    plt.plot(m_values, execution_times)
-    plt.xlabel('m')
-    plt.ylabel('Execution Time')
-    plt.title('Execution Time vs. m')
-    plt.show()
-
-    # Plot the execution time and error percentage vs. m
-    plt.plot(m_values, execution_times, label='Execution Time')
-    plt.plot(m_values, error_percentages, label='Error Percentage')
-    plt.xlabel('m')
-    plt.ylabel('Value')
-    plt.title('Execution Time and Error Percentage vs. m')
-    plt.legend()
-    plt.show()
+        # Plot the execution time vs. m
+        plt.plot(m_values, execution_times)
+        plt.xlabel('m')
+        plt.ylabel('Execution Time')
+        plt.title('Execution Time vs. m for k='+ str(k))
+        plt.savefig('execution_time_k' + str(k) + '.png')
+        plt.close()
