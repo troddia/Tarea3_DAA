@@ -82,7 +82,7 @@ for index, nombres in enumerate(nombres_por_porcentaje):
     execution_time = end_time - start_time 
     tiempo_filtro.append(execution_time)
 
-    false_positive_rate = (false_positive / 25000) * 100
+    false_positive_rate = (false_positive / 3000) * 100
     with open('resultados_comparacion.txt', 'a') as file:
         file.write("Test for porcentaje con filtro = " + str(porcentajes[index])+ "\n")
         file.write("Execution Time: " + str(execution_time) + "\n")
