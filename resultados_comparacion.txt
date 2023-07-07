@@ -1,3 +1,38 @@
 Test for porcentaje sin filtro = 1
-Execution Time: 69.88567113876343
+Execution Time: 64.92318153381348
+--------------------------------------------------------------%
+Test for porcentaje con filtro = 0
+Execution Time: 36.575745820999146
+Positive: 3000
+False Positive: 0
+Negative: 0
+Error %: 0.0%
+--------------------------------------------------------------%
+Test for porcentaje con filtro = 0.25
+Execution Time: 28.287386178970337
+Positive: 5253
+False Positive: 53
+Negative: 694
+Error %: 0.212%
+--------------------------------------------------------------%
+Test for porcentaje con filtro = 0.5
+Execution Time: 20.24236273765564
+Positive: 6764
+False Positive: 177
+Negative: 2059
+Error %: 0.7080000000000001%
+--------------------------------------------------------------%
+Test for porcentaje con filtro = 0.75
+Execution Time: 14.570839405059814
+Positive: 7531
+False Positive: 355
+Negative: 4114
+Error %: 1.4200000000000002%
+--------------------------------------------------------------%
+Test for porcentaje con filtro = 1
+Execution Time: 5.869702339172363
+Positive: 7548
+False Positive: 598
+Negative: 6854
+Error %: 2.392%
 --------------------------------------------------------------%

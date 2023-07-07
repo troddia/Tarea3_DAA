@@ -1,0 +1,60 @@
+Test for porcentaje con filtro = 1000
+Execution Time: 7.053025484085083
+Positive: 503
+False Positive: 44
+Negative: 453
+Error %: 0.17600000000000002%
+--------------------------------------------------------------%
+Test for porcentaje con filtro = 2000
+Execution Time: 14.638207912445068
+Positive: 1510
+False Positive: 124
+Negative: 1366
+Error %: 0.496%
+--------------------------------------------------------------%
+Test for porcentaje con filtro = 3000
+Execution Time: 20.570338249206543
+Positive: 3022
+False Positive: 256
+Negative: 2722
+Error %: 1.024%
+--------------------------------------------------------------%
+Test for porcentaje con filtro = 4000
+Execution Time: 27.459664821624756
+Positive: 5041
+False Positive: 425
+Negative: 4534
+Error %: 1.7000000000000002%
+--------------------------------------------------------------%
+Test for porcentaje con filtro = 5000
+Execution Time: 35.12574625015259
+Positive: 7556
+False Positive: 642
+Negative: 6802
+Error %: 2.568%
+--------------------------------------------------------------%
+Test for porcentaje con filtro = 6000
+Execution Time: 42.46998643875122
+Positive: 10578
+False Positive: 908
+Negative: 9514
+Error %: 3.6319999999999997%
+--------------------------------------------------------------%
+Test for porcentaje sin filtro = 1000
+Execution Time: 17.163724422454834
+--------------------------------------------------------------%
+Test for porcentaje sin filtro = 2000
+Execution Time: 33.74440908432007
+--------------------------------------------------------------%
+Test for porcentaje sin filtro = 3000
+Execution Time: 48.518001556396484
+--------------------------------------------------------------%
+Test for porcentaje sin filtro = 4000
+Execution Time: 64.13536667823792
+--------------------------------------------------------------%
+Test for porcentaje sin filtro = 5000
+Execution Time: 81.39117956161499
+--------------------------------------------------------------%
+Test for porcentaje sin filtro = 6000
+Execution Time: 98.66153693199158
+--------------------------------------------------------------%
