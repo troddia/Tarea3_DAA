@@ -1,0 +1,70 @@
+Test for m = 100000 and k = 7
+Execution Time: 164.01252508163452
+Positive: 9019
+False Positive: 2954
+Negative: 27
+Error %: 24.616666666666667%
+--------------------------------------------------------------%
+Test for m = 200000 and k = 7
+Execution Time: 148.5081272125244
+Positive: 9019
+False Positive: 2257
+Negative: 724
+Error %: 18.808333333333334%
+--------------------------------------------------------------%
+Test for m = 300000 and k = 7
+Execution Time: 127.78347682952881
+Positive: 9019
+False Positive: 1336
+Negative: 1645
+Error %: 11.133333333333335%
+--------------------------------------------------------------%
+Test for m = 400000 and k = 7
+Execution Time: 112.41130065917969
+Positive: 9019
+False Positive: 658
+Negative: 2323
+Error %: 5.483333333333333%
+--------------------------------------------------------------%
+Test for m = 500000 and k = 7
+Execution Time: 105.55105638504028
+Positive: 9019
+False Positive: 328
+Negative: 2653
+Error %: 2.7333333333333334%
+--------------------------------------------------------------%
+Test for m = 600000 and k = 7
+Execution Time: 102.7653329372406
+Positive: 9019
+False Positive: 185
+Negative: 2796
+Error %: 1.5416666666666667%
+--------------------------------------------------------------%
+Test for m = 700000 and k = 7
+Execution Time: 100.33167505264282
+Positive: 9019
+False Positive: 77
+Negative: 2904
+Error %: 0.6416666666666667%
+--------------------------------------------------------------%
+Test for m = 800000 and k = 7
+Execution Time: 99.49470329284668
+Positive: 9019
+False Positive: 58
+Negative: 2923
+Error %: 0.48333333333333334%
+--------------------------------------------------------------%
+Test for m = 900000 and k = 7
+Execution Time: 98.91023898124695
+Positive: 9019
+False Positive: 33
+Negative: 2948
+Error %: 0.27499999999999997%
+--------------------------------------------------------------%
+Test for m = 1000000 and k = 7
+Execution Time: 99.02319121360779
+Positive: 9019
+False Positive: 9
+Negative: 2972
+Error %: 0.075%
+--------------------------------------------------------------%

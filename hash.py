@@ -54,9 +54,9 @@ class Filter:
 
         return True
 
-# TODO: review whats the best prime number
-p = 1000000007    
-def test(m, k, names):
+# Numero primo muy grande, este debe ser mas grande que la cantidad de datos en el filtro. (Nos aseguramos usando uno muy grande)
+p = 1000000007  
+def test(m, k, n, names):
 
     hash_family = Filter(p, m, k)
 
@@ -67,17 +67,16 @@ def test(m, k, names):
     hash_family.fill_filter(csv_file)
 
     
-    
-    #//
+
     positive = 0
     false_positive = 0
     negative = 0
     
     start_time = time.time()
-    for i in range(25000):
+    for i in range(n):
         name = names[i]
         if hash_family.pass_filter(name):
-            #loop through the csv list
+            #recorre el archivo csv
             csv_file = csv.reader(open('Popular-Baby-Names-Final.csv', "r"), delimiter=",")
             for row in csv_file:
                 state = 0
@@ -95,7 +94,7 @@ def test(m, k, names):
              
     end_time = time.time()
     execution_time = end_time - start_time 
-    false_positive_rate = (false_positive / 25000) * 100
+    false_positive_rate = (false_positive / n) * 100
     with open('resultados_k'+str(k)+'.txt', 'a') as file:
         file.write("Test for m = " + str(m) + " and k = " + str(k) + "\n")
         file.write("Execution Time: " + str(execution_time) + "\n")
@@ -104,10 +103,10 @@ def test(m, k, names):
         file.write("Negative: " + str(negative) + "\n")
         file.write("Error %: " + str(false_positive_rate) + "%\n")
         file.write("--------------------------------------------------------------" + "%\n")
-    return execution_time, error_percentages
+    return execution_time, false_positive_rate
     
-    #//
-    
+
+# Main que se ejecuta 
 if __name__ == '__main__':
 
     data = pd.read_csv('Popular-Baby-Names-Final.csv', header=None) 
@@ -115,11 +114,11 @@ if __name__ == '__main__':
 
     total_nombres = len(data)
     total_nombres_2 = len(data_2)
+    # ESCOGER 'n', tamano de la lista de los elementos que se buscan (este debe ser mayor a 3000)
+    n = 6000
 
-    N = 3000
-
-    indices_aleatorios = random.sample(range(total_nombres), 22000)
-    indices_aleatorios_2 = random.sample(range(total_nombres_2), N)
+    indices_aleatorios = random.sample(range(total_nombres), n-3000)
+    indices_aleatorios_2 = random.sample(range(total_nombres_2), 3000)
 
     nombres_aleatorios = data.iloc[indices_aleatorios][0].tolist()
     nombres_aleatorios_2 = data_2.iloc[indices_aleatorios_2][0].tolist()
@@ -127,25 +126,34 @@ if __name__ == '__main__':
     nombres_combinados = nombres_aleatorios + nombres_aleatorios_2
     random.shuffle(nombres_combinados)
 
-    # Define the range of m values and the step size
+    # Define el rango de los distintos 'm' que vamos a testear y graficar
     m_values = range(100000, 1000001, 100000)
 
-    # List to store the execution times for each m value
-    for k in range(1,2):
+    # Para graficar tenemos que guardar los tiempos de ejecucion y porcentajes de error
+    # Probamos los k desde 1 a 10
+    for k in range(1,11):
         execution_times = []
         error_percentages = []
         for m in m_values:
-            t, error = test(m, k, nombres_combinados)
+            t, error = test(m, k, n, nombres_combinados)
             execution_times.append(t)
             error_percentages.append(error)
 
 
-        # Plot the execution time vs. m
+        # Ploteamos el execution time vs. m
         plt.plot(m_values, execution_times)
         plt.xlabel('m')
         plt.ylabel('Execution Time')
         plt.title('Execution Time vs. m for k='+ str(k))
         plt.savefig('execution_time_k' + str(k) + '.png')
+        plt.close()
+
+        # Ploteamos el error percentage vs. m
+        plt.plot(m_values, error_percentages)
+        plt.xlabel('m')
+        plt.ylabel('error_percentages')
+        plt.title('error_percentages vs. m for k='+ str(k))
+        plt.savefig('error_percentages_k' + str(k) + '.png')
         plt.close()
 
 

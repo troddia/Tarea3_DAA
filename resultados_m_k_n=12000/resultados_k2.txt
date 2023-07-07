@@ -1,0 +1,70 @@
+Test for m = 100000 and k = 2
+Execution Time: 145.49489974975586
+Positive: 9019
+False Positive: 2145
+Negative: 836
+Error %: 17.875%
+--------------------------------------------------------------%
+Test for m = 200000 and k = 2
+Execution Time: 123.89414191246033
+Positive: 9019
+False Positive: 1145
+Negative: 1836
+Error %: 9.541666666666666%
+--------------------------------------------------------------%
+Test for m = 300000 and k = 2
+Execution Time: 112.4049882888794
+Positive: 9019
+False Positive: 638
+Negative: 2343
+Error %: 5.316666666666666%
+--------------------------------------------------------------%
+Test for m = 400000 and k = 2
+Execution Time: 104.12965655326843
+Positive: 9019
+False Positive: 403
+Negative: 2578
+Error %: 3.3583333333333334%
+--------------------------------------------------------------%
+Test for m = 500000 and k = 2
+Execution Time: 105.46080303192139
+Positive: 9019
+False Positive: 300
+Negative: 2681
+Error %: 2.5%
+--------------------------------------------------------------%
+Test for m = 600000 and k = 2
+Execution Time: 102.02326989173889
+Positive: 9019
+False Positive: 193
+Negative: 2788
+Error %: 1.6083333333333334%
+--------------------------------------------------------------%
+Test for m = 700000 and k = 2
+Execution Time: 101.92222023010254
+Positive: 9019
+False Positive: 166
+Negative: 2815
+Error %: 1.3833333333333333%
+--------------------------------------------------------------%
+Test for m = 800000 and k = 2
+Execution Time: 101.27775979042053
+Positive: 9019
+False Positive: 147
+Negative: 2834
+Error %: 1.225%
+--------------------------------------------------------------%
+Test for m = 900000 and k = 2
+Execution Time: 100.07212972640991
+Positive: 9019
+False Positive: 103
+Negative: 2878
+Error %: 0.8583333333333334%
+--------------------------------------------------------------%
+Test for m = 1000000 and k = 2
+Execution Time: 99.20607686042786
+Positive: 9019
+False Positive: 83
+Negative: 2898
+Error %: 0.6916666666666667%
+--------------------------------------------------------------%
