@@ -42,7 +42,7 @@ for porcentaje in porcentajes:
 
     nombres_por_porcentaje.append(nombres_combinados)
  
-# Se crea el filtro
+# Se crea el filtro, usando el mismo numero primo que en hash.py
 hash_family = Filter(1000000007, 500000, 3)
 
 hash_family.generate_hash_functions()
@@ -51,7 +51,6 @@ csv_file = 'Popular-Baby-Names-Final.csv'
 
 hash_family.fill_filter(csv_file)
 
-#//
 positive = 0
 false_positive = 0
 negative = 0
@@ -63,7 +62,7 @@ for index, nombres in enumerate(nombres_por_porcentaje):
     for i in range(3000):
         name = nombres[i]
         if hash_family.pass_filter(name):
-            #loop through the csv list
+            # Recorremos el csv
             csv_file = csv.reader(open('Popular-Baby-Names-Final.csv', "r"), delimiter=",")
             for row in csv_file:
                 state = 0
