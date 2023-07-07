@@ -1,0 +1,70 @@
+Test for m = 100000 and k = 9
+Execution Time: 160.18707299232483
+Positive: 9019
+False Positive: 2974
+Negative: 7
+Error %: 24.78333333333333%
+--------------------------------------------------------------%
+Test for m = 200000 and k = 9
+Execution Time: 153.01401686668396
+Positive: 9019
+False Positive: 2601
+Negative: 380
+Error %: 21.675%
+--------------------------------------------------------------%
+Test for m = 300000 and k = 9
+Execution Time: 134.28932857513428
+Positive: 9019
+False Positive: 1759
+Negative: 1222
+Error %: 14.658333333333335%
+--------------------------------------------------------------%
+Test for m = 400000 and k = 9
+Execution Time: 117.00103378295898
+Positive: 9019
+False Positive: 952
+Negative: 2029
+Error %: 7.933333333333334%
+--------------------------------------------------------------%
+Test for m = 500000 and k = 9
+Execution Time: 106.31264519691467
+Positive: 9019
+False Positive: 422
+Negative: 2559
+Error %: 3.5166666666666666%
+--------------------------------------------------------------%
+Test for m = 600000 and k = 9
+Execution Time: 102.68168115615845
+Positive: 9019
+False Positive: 228
+Negative: 2753
+Error %: 1.9%
+--------------------------------------------------------------%
+Test for m = 700000 and k = 9
+Execution Time: 100.04336380958557
+Positive: 9019
+False Positive: 120
+Negative: 2861
+Error %: 1.0%
+--------------------------------------------------------------%
+Test for m = 800000 and k = 9
+Execution Time: 98.27094626426697
+Positive: 9019
+False Positive: 56
+Negative: 2925
+Error %: 0.46666666666666673%
+--------------------------------------------------------------%
+Test for m = 900000 and k = 9
+Execution Time: 98.256343126297
+Positive: 9019
+False Positive: 34
+Negative: 2947
+Error %: 0.2833333333333333%
+--------------------------------------------------------------%
+Test for m = 1000000 and k = 9
+Execution Time: 97.21626162528992
+Positive: 9019
+False Positive: 20
+Negative: 2961
+Error %: 0.16666666666666669%
+--------------------------------------------------------------%

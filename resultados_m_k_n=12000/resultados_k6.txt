@@ -1,0 +1,70 @@
+Test for m = 100000 and k = 6
+Execution Time: 164.39325165748596
+Positive: 9019
+False Positive: 2934
+Negative: 47
+Error %: 24.45%
+--------------------------------------------------------------%
+Test for m = 200000 and k = 6
+Execution Time: 142.63937520980835
+Positive: 9019
+False Positive: 2081
+Negative: 900
+Error %: 17.341666666666665%
+--------------------------------------------------------------%
+Test for m = 300000 and k = 6
+Execution Time: 121.87905502319336
+Positive: 9019
+False Positive: 1104
+Negative: 1877
+Error %: 9.2%
+--------------------------------------------------------------%
+Test for m = 400000 and k = 6
+Execution Time: 110.34313821792603
+Positive: 9019
+False Positive: 584
+Negative: 2397
+Error %: 4.866666666666666%
+--------------------------------------------------------------%
+Test for m = 500000 and k = 6
+Execution Time: 104.74180436134338
+Positive: 9019
+False Positive: 285
+Negative: 2696
+Error %: 2.375%
+--------------------------------------------------------------%
+Test for m = 600000 and k = 6
+Execution Time: 101.83979964256287
+Positive: 9019
+False Positive: 150
+Negative: 2831
+Error %: 1.25%
+--------------------------------------------------------------%
+Test for m = 700000 and k = 6
+Execution Time: 99.70806908607483
+Positive: 9019
+False Positive: 70
+Negative: 2911
+Error %: 0.5833333333333334%
+--------------------------------------------------------------%
+Test for m = 800000 and k = 6
+Execution Time: 99.64249777793884
+Positive: 9019
+False Positive: 50
+Negative: 2931
+Error %: 0.4166666666666667%
+--------------------------------------------------------------%
+Test for m = 900000 and k = 6
+Execution Time: 99.03627729415894
+Positive: 9019
+False Positive: 26
+Negative: 2955
+Error %: 0.21666666666666665%
+--------------------------------------------------------------%
+Test for m = 1000000 and k = 6
+Execution Time: 98.8757541179657
+Positive: 9019
+False Positive: 20
+Negative: 2961
+Error %: 0.16666666666666669%
+--------------------------------------------------------------%
