@@ -113,7 +113,7 @@ for index, nombres in enumerate(nombres_por_porcentaje):
     tiempo_sin_filtro.append(execution_time)
 
 
-    with open('resultados_comparacion.txt', 'w') as file:
+    with open('resultados_comparacion.txt', 'a') as file:
         file.write("Test for porcentaje sin filtro = " + str(porcentajes[index])+ "\n")
         file.write("Execution Time: " + str(execution_time) + "\n")
         file.write("--------------------------------------------------------------" + "%\n")
